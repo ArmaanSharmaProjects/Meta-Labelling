@@ -6,7 +6,7 @@
 
 This project implements a **full meta-labeling pipeline** for financial time series classification using **dollar bars**, **triple barrier labeling**, and **Random Forest classification**—inspired by *Marcos López de Prado’s Advances in Financial Machine Learning*. The final model predicts whether **crossing moving average events** are worth acting on, enhancing execution with **confidence filtering**.
 
-Built from scratch and applied to **E-mini S&P 500 futures (ES)** 1-minute data, this system applies cutting-edge techniques in financial machine learning and backtests model precision under high-confidence trading signals.
+Built from scratch and applied to **E-mini S&P 500 futures (ES)**  -minute data, this system applies cutting-edge techniques in financial machine learning and backtests model precision under high-confidence trading signals.
 
 ---
 
@@ -87,10 +87,10 @@ Returns are calculated using real entry/exit prices from `close[t0]` to `close[t
 
 ```bash
 .
-├── ES_1min_sample.csv         
-├── tripleBarrierDollarData.csv 
-├── main_pipeline.py         
-└── README.md                  
+├── ES_1min_sample.csv
+├── tripleBarrierDollarData.csv
+├── main_pipeline.py
+└── README.md
 ```
 
 ---
