@@ -88,7 +88,7 @@ Returns are calculated using real entry/exit prices from `close[t0]` to `close[t
 ```bash
 .
 ├── ES_1min_sample.csv
-├── tripleBarrierDollarData.csv
+├── tripleBarrierDollarData.csv #Will be created after run
 ├── main.py #Run
 └── README.md
 ```
