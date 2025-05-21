@@ -12,8 +12,8 @@ Built from scratch and applied to **E-mini S&P 500 futures (ES)** 1-minute data,
 
 ## Why Dollar Bars?
 
-Traditional time-based bars introduce **sampling bias** and **volatility clustering**, obscuring alpha signals.  
-Instead, I use **dollar bars**—bars constructed whenever cumulative traded value exceeds a threshold ($2,000,000)—to normalize information flow.
+Traditional time based bars introduce **sampling bias** and **volatility clustering**, obscuring alpha signals.  
+Instead, I use **dollar bars**: bars constructed whenever cumulative traded value exceeds a threshold ($2,000,000) to normalize information flow.
 
 ### Chosen Threshold: `2,000,000 USD`
 This threshold balances signal resolution and noise suppression:
@@ -87,10 +87,10 @@ Returns are calculated using real entry/exit prices from `close[t0]` to `close[t
 
 ```bash
 .
-├── ES_1min_sample.csv         # Sample tick-level input data
-├── tripleBarrierDollarData.csv # Dollar-barred version
-├── main_pipeline.py           # Core implementation
-└── README.md                  # Project documentation
+├── ES_1min_sample.csv         
+├── tripleBarrierDollarData.csv 
+├── main_pipeline.py         
+└── README.md                  
 ```
 
 ---
