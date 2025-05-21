@@ -89,7 +89,7 @@ Returns are calculated using real entry/exit prices from `close[t0]` to `close[t
 .
 ├── ES_1min_sample.csv
 ├── tripleBarrierDollarData.csv
-├── main_pipeline.py
+├── main.py #Run
 └── README.md
 ```
 
